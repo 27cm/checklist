@@ -1,8 +1,7 @@
 
 [HTML](#html) | [CSS](#css) | [JS](#js) | [SEO](#seo) | [UI](#ui)
 
-<a name='html'/>
-# HTML
+# <a name='html'></a>HTML
 
 - [ ] Валидность<br>
       [validator.w3.org](http://validator.w3.org)
@@ -16,8 +15,7 @@
       [habrahabr.ru/post/57351](http://habrahabr.ru/post/57351/)
 - [ ] Отсутствие опечаток, орфографических и пунктуационных ошибок в текстах
 
-<a name='css'/>
-# CSS
+# <a name='css'></a>CSS
 
 - [ ] Работоспособность (читаемость) с выключенными стилями<br>
       [achecker.ca/checker](http://achecker.ca/checker/)
@@ -31,13 +29,11 @@
       [cssfontstack.com](http://cssfontstack.com/)
 - [ ] Версия для печати
 
-<a name='js'/>
-# JavaScript
+# <a name='js'></a>JavaScript
 
 - [ ] Работоспособность с выключенными JavaScript и Flash
 
-<a name='seo'/>
-# SEO
+# <a name='seo'></a>SEO
 
 - [ ] Перенаправление адресов с префиксом «www» на соответствующие адреса без префиксов<br>
       [no-www.org](http://no-www.org)
@@ -57,8 +53,7 @@
 - [ ] humans.txt<br>
       [humanstxt.org](http://humanstxt.org/)
 
-<a name='html'/>
-# User Interface
+# <a name='ui'></a>User Interface
 
 - [ ] Поддержка работы с сайтом с помощью клавиатуры (без мышки)
 
