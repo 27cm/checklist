@@ -1,70 +1,99 @@
 
-[HTML](#html) | [CSS](#css) | [JS](#js) | [SEO](#seo) | [Безопасность](#security) | [UI](#ui)
+[PHP](#php) | [HTML](#html) | [CSS](#css) | [JS](#js) | [SEO](#seo) | [Безопасность](#security) | [UI](#ui) | [Дизайн](#design) | [Linux](#linux)
 
-# <a name='html'></a>HTML
+
+#### <a name='php'></a>PHP
+
+- [ ] Используй последнюю стабильную версию PHP<br>
+      *[php.net/releases/index.php](https://php.net/releases/index.php)*
+- [ ] Используй любой современный PHP фреймворк<br>
+      *[Laravel](http://laravel.com/),
+      [Symfony](http://symfony.com/),
+      [Zend Framework](http://framework.zend.com/),
+      [Yii](http://www.yiiframework.com/)*
+- [ ] Следуй рекомендациям PSR<br>
+      *[php-fig.org](http://php-fig.org/)*
+- [ ] Используй стандартную библиотеку PHP (SPL)<br>
+      *[php.net/manual/ru/book.spl.php](http://php.net/manual/ru/book.spl.php)*
+- [ ] Используй готовые библиотеки, не изобретай велосипеды<br>
+      *[github.com/ziadoz/awesome-php](https://github.com/ziadoz/awesome-php)*
+- [ ] Автоматизируй тестирование<br>
+      *[PHPUnit](https://phpunit.de/)*
+- [ ] Используй FastCGI (лучше всего Nginx + PHP-fpm) и OpCache для ускорения работы скриптов<br>
+- [ ] Используй Memcache для кеширования данных<br>
+
+
+#### <a name='html'></a>HTML
 
 - [ ] Валидность<br>
-      [validator.w3.org](http://validator.w3.org)
+      *[validator.w3.org](http://validator.w3.org)*
 - [ ] Оптимизация для мобильных устройств<br>
-      [validator.w3.org/mobile](http://validator.w3.org/mobile/)
+      *[validator.w3.org/mobile](http://validator.w3.org/mobile/)*
 - [ ] Интеграция в пользовательское окружение<br>
-      [buildmypinnedsite.com](http://www.buildmypinnedsite.com/en)<br>
-      [api.yandex.ru/tableau](http://api.yandex.ru/tableau/)<br>
-      [List of Usable HTML Meta and Link Tags](https://gist.github.com/kevinSuttle/1997924)
+      *[buildmypinnedsite.com](http://www.buildmypinnedsite.com/en)*<br>
+      *[api.yandex.ru/tableau](http://api.yandex.ru/tableau/)*<br>
+      *[List of Usable HTML Meta and Link Tags](https://gist.github.com/kevinSuttle/1997924)*
 - [ ] Правильная типографика<br>
-      [habrahabr.ru/post/57351](http://habrahabr.ru/post/57351/)
+      *[habrahabr.ru/post/57351](http://habrahabr.ru/post/57351/)*
 - [ ] Отсутствие опечаток, орфографических и пунктуационных ошибок
 
-# <a name='css'></a>CSS
+
+#### <a name='css'></a>CSS
 
 - [ ] Работоспособность (читаемость) с выключенными стилями<br>
-      [achecker.ca/checker](http://achecker.ca/checker/)
+      *[achecker.ca/checker](http://achecker.ca/checker/)*
 - [ ] Соответствие макету<br>
 - [ ] Кроссбраузерность<br>
-      [browserstack.com](https://www.browserstack.com/)<br>
-      [https://dev.windows.com/en-us/microsoft-edge/tools](https://dev.windows.com/en-us/microsoft-edge/tools/)
+      *[developer.chrome.com/devtools/docs/device-mode](https://developer.chrome.com/devtools/docs/device-mode)*<br>
+      *[browserstack.com](https://www.browserstack.com/)*<br>
+      *[dev.windows.com/en-us/microsoft-edge/tools](https://dev.windows.com/en-us/microsoft-edge/tools/)*
 - [ ] Валидность<br>
-      [jigsaw.w3.org/css-validator](http://jigsaw.w3.org/css-validator/)
+      *[jigsaw.w3.org/css-validator](http://jigsaw.w3.org/css-validator/)*
 - [ ] Наличие Windows/Mac/Linux аналогов шрифтов<br>
-      [cssfontstack.com](http://cssfontstack.com/)
-- [ ] Версия для печати
+      *[cssfontstack.com](http://cssfontstack.com/)*
+- [ ] Версия для печати<br>
+      *[developer.chrome.com/devtools/docs/device-mode](https://developer.chrome.com/devtools/docs/device-mode#more-media-types)*
 
-# <a name='js'></a>JavaScript
+
+#### <a name='js'></a>JavaScript
 
 - [ ] Работоспособность с выключенными JavaScript и Flash
 
-# <a name='seo'></a>SEO
+
+#### <a name='seo'></a>SEO
 
 - [ ] Канониназация домена, регистра, слешей и дефисов в URL<br>
-      *http://www.DOMAIN.com/section///PAGE---name/ > http://domain.com/section/page-name*
+      *`http://www.DOMAIN.com/section///PAGE---name/ > http://domain.com/section/page-name`*<br>
       [no-www.org](http://no-www.org)
 - [ ] ЧПУ<br>
-      [ru.wikipedia.org/wiki/ЧПУ](https://ru.wikipedia.org/wiki/%D0%A7%D0%9F%D0%A3_(%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B5%D1%82))
+      *[ru.wikipedia.org/wiki/ЧПУ](https://ru.wikipedia.org/wiki/%D0%A7%D0%9F%D0%A3_(%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B5%D1%82))*
 - [ ] Оптимизация скорости загрузки страниц<br>
-      [developers.google.com/speed/pagespeed/insights](https://developers.google.com/speed/pagespeed/insights/)<br>
-      [yslow.org](http://yslow.org/)
+      *[developers.google.com/speed/pagespeed/insights](https://developers.google.com/speed/pagespeed/insights/)*<br>
+      *[yslow.org](http://yslow.org/)*
 - [ ] Оптимизация для мобильных устройств<br>
-      [google.com/webmasters/tools/mobile-friendly](https://www.google.com/webmasters/tools/mobile-friendly/)
+      *[google.com/webmasters/tools/mobile-friendly](https://www.google.com/webmasters/tools/mobile-friendly/)*
 - [ ] Микроформаты<br>
-      [schema-creator.org](http://schema-creator.org/)<br>
-      [schema.org](http://schema.org/)<br>
-      [w3.org/2003/12/semantic-extractor](http://www.w3.org/2003/12/semantic-extractor.html)
+      *[schema-creator.org](http://schema-creator.org/)*<br>
+      *[schema.org](http://schema.org/)*<br>
+      *[w3.org/2003/12/semantic-extractor](http://www.w3.org/2003/12/semantic-extractor.html)*
 - [ ] Sitemaps<br>
-      [sitemaps.org/ru](http://www.sitemaps.org/ru/)
+      *[sitemaps.org/ru](http://www.sitemaps.org/ru/)*
 - [ ] robots.txt<br>
-      [robotstxt.org](http://www.robotstxt.org/)
+      *[robotstxt.org](http://www.robotstxt.org/)*
 - [ ] humans.txt<br>
-      [humanstxt.org](http://humanstxt.org/)
+      *[humanstxt.org](http://humanstxt.org/)*
 - [ ] Оптимизация постраничной навигации<br>
-      [seoprofy.ua/blog/optimizaciya-sajtov/pagination-for-seo](http://seoprofy.ua/blog/optimizaciya-sajtov/pagination-for-seo)
+      *[seoprofy.ua/blog/optimizaciya-sajtov/pagination-for-seo](http://seoprofy.ua/blog/optimizaciya-sajtov/pagination-for-seo)*
 - [ ] Редирект 301 Moved Permanently<br>
       *Постоянный редирект, который передает около 90-99% ссылочного веса. Указывает, что
-      страница перемещена по новому адресу и старый url следует считать устаревшим.*
-      [seoprofy.ua/blog/optimizaciya-sajtov/301-redirekt](http://seoprofy.ua/blog/optimizaciya-sajtov/301-redirekt)
+      страница перемещена по новому адресу и старый url следует считать устаревшим.*<br>
+      *[seoprofy.ua/blog/optimizaciya-sajtov/301-redirekt](http://seoprofy.ua/blog/optimizaciya-sajtov/301-redirekt)*
 - [ ] Редирект 302 Found<br>
-      *Временный редирект, который передает 0% ссылочного веса. В большинстве случаев, не должен использоваться.*
+      *Временный редирект, который передает 0% ссылочного веса.
+      В большинстве случаев, не должен использоваться.*
 
-# <a name='security'></a>Безопасность
+
+#### <a name='security'></a>Безопасность
 
 - [ ] Ограничение несанкционированного доступа к файлам, страницам и сообщениям об ошибках.
 - [ ] Хеширование паролей, стойкое к атакам перебора, с использованием «соли».
@@ -80,7 +109,8 @@
 - [ ] Протоколирование всех возникающих ошибок и предупреждений. Уведомление разработчиков о возникающих ошибках. Ведение детальной статистики посетителей веб-сайтов с помощью сервисов Google Analytics и Яндекс.Метрика.
 - [ ] Регулярное (1 раза в сутки) резервное копирование исходных кодов, файлов и базы данных.
 
-# <a name='ui'></a>User Interface
+
+#### <a name='ui'></a>User Interface
 
 http://habrahabr.ru/company/adv/blog/186846/
 - [ ] Макет с одной колонкой вместо многоколоночного
@@ -180,9 +210,58 @@ http://habrahabr.ru/post/178867/
 - [ ] Поля для заполнения подписаны соответствующими тэгами. К примеру адрес, имя (поддерживают автозаполнение).
 - [ ] Не забыть про подтверждение формы.
 - [ ] Сообщение об ошибке заполнения должно отображаться рядом с тем полем, в котором сделана ошибка.
-- [ ] Контраст. Фон и текст на нем должны контрастировать. Можно воспользоваться вот этим сервисом для проверки.
+- [ ] Контраст. Фон и текст на нем должны контрастировать.
 - [ ] Контент разделим, четко видны отступы между абзацами и частями текста, заголовки легко читаемы.
-- [ ] Контент написан понятным для пользователя языком, нет перегрузки предложений. Интересный сервис на заметку — www.read-able.com/
-- [ ] Контактная информации компании хорошо читаема и различима. Клик по email не открывает приложение для почты (Outlook и тому подобные) автоматически.
+- [ ] Контент написан понятным для пользователя языком, нет перегрузки предложений<br>
+      *[read-able.com](http://www.read-able.com)
 - [ ] Контент действительно полезен и отвечает на основные вопросы пользователя, он так же должен быть актуален. Нет никаких длинных инструкций и приветственных сообщений аля «Добро пожаловать на наш сайт».
-- [ ] Использование верхнего регистра внутри текста крайне нежелательно.
+
+
+#### <a name='design'></a>Дизайн
+
+https://github.com/KyreenaH/Designing-for-Web
+
+- [ ] Соблюдение правил хорошего тона в «Фотошопе»<br>
+      *[i-love-psd.ru](http://i-love-psd.ru/)*<br>
+      *[photoshopetiquette.com](http://photoshopetiquette.com/)*<br>
+      *[andexds.com/projects/checklistui/](http://andexds.com/projects/checklistui/)*
+- [ ] Применение единой модульной сетки при проектировании интерфейса веб-сайта<br>
+      *Значительно упрощает проектирование интерфейса и последующую вёрстку макета.*
+- [ ] Наличие в макетах отдельного слоя с модульной сеткой страницы<br>
+      *Следование единой модульной сетке в рамках проекта не только
+      увеличит цельность и логичность восприятия сайта, но и многократно
+      упростит труд разработчикам.*
+- [ ] Представлены различные состояния для интерактивных элементов (кнопок, текстовых полей, ссылок)<br>
+      *Обычное (default), посещённое (visited), при наведении мыши (hover), активное (active),
+      в фокусе (focus), заблокированное (disabled).*
+
+
+#### <a name='linux'></a>Linux
+
+http://dunmaksim.blogspot.ru/2014/07/ssh-debian.html
+http://dunmaksim.blogspot.ru/2014/09/debian-openssl.html
+https://debian.pro/1856
+
+- [ ] Удалены все ненужные и неиспользуемые пакеты
+- [ ] В /etc/apt/sources.list только нужные и проверенные репозитории
+- [ ] Установлен и настроен openssh-server<br>
+      *[debian.pro/1915](https://debian.pro/1915)*
+- [ ] FQDN<br>
+      *[debian.pro/1977](https://debian.pro/1977)*
+- [ ] Используются надёжные случайно сгенерированные пароли<br>
+      *[debian.pro/2013](https://debian.pro/2013)*
+- [ ] Установлен и настроен fail2ban<br>
+      *[debian.pro/179](https://debian.pro/179)*
+- [ ] Используются последние стабильные версии всех пакетов
+- [ ] Поставить и включить bash-completion
+- [ ] Поставить sudo, внести себя в группу админов, запретить root'у логиниться в системе
+- [ ] Поставить ntp и ntp-date, указать сервера в файлах настройки
+- [ ] Добавить в ~/.ssh/authorized_keys свой публичный ключ
+- [ ] Увеличить длину серверных ключей до 2048 бит минимум, по-умолчанию везде 768
+- [ ] Сгенерировать серверные ключи заново
+- [ ] Отключить авторизацию по паролю
+- [ ] Запретить входить без пароля
+- [ ] Сменить порт SSH с 22 на какой-нибудь другой<br>
+      *Отсекает 95% ScriptKiddies сразу же*
+- [ ] Включить шифрование по ГОСТу
+- [ ] tcpdump, mc, nano, wget, rsync, scp, remove NetworkManager, check all interfaces configs, add epel repo, update, configure firewall
