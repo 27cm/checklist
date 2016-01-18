@@ -1,8 +1,9 @@
 
-[PHP](#php) | [HTML](#html) | [CSS](#css) | [JS](#js) | [SEO](#seo) | [Безопасность](#security) | [UI](#ui) | [Дизайн](#design) | [Linux](#linux)
-
+| [PHP](#php) | [HTML](#html) | [CSS](#css) | [JS](#js) | [SEO](#seo) | [Безопасность](#security) | [UI](#ui) | [Дизайн](#design) | [Linux](#linux) |
+| ----------- | ------------- | ----------- | --------- | ----------- | ------------------------- | --------- | ----------------- | --------------- |
 
 #### <a name='php'></a>PHP
+*На основе рекомендаций [PHP: The Right Way](http://www.phptherightway.com)*
 
 - [ ] Используй последнюю стабильную версию PHP<br>
       *[php.net/releases/index.php](https://php.net/releases/index.php)*
@@ -56,8 +57,18 @@
 
 
 #### <a name='js'></a>JavaScript
+*На основе рекомендаций [JavaScript: The Right Way](http://jstherightway.org)*
 
 - [ ] Работоспособность с выключенными JavaScript и Flash
+- [ ] Используй любой современный JavaScript фреймворк
+- [ ] Используй готовые библиотеки, не изобретай велосипеды<br>
+      *[github.com/sorrycc/awesome-javascript](https://github.com/sorrycc/awesome-javascript)*
+- [ ] Автоматизируй тестирование<br>
+      *[Mocha](http://mochajs.org/),
+      [QUnit](http://qunitjs.com/),
+      [Jasmine](https://github.com/pivotal/jasmine),
+      [Karma](http://karma-runner.github.io/),
+      [Intern](http://theintern.io/)*
 
 
 #### <a name='seo'></a>SEO
