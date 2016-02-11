@@ -276,3 +276,8 @@ https://debian.pro/1856
       *Отсекает 95% ScriptKiddies сразу же*
 - [ ] Включить шифрование по ГОСТу
 - [ ] tcpdump, mc, nano, wget, rsync, scp, remove NetworkManager, check all interfaces configs, add epel repo, update, configure firewall
+
+#### <a name='etc'></a>Прочее
+
+- [ ] Следуй 9.5 правилам ведения безопасного IT-бизнеса в России:
+      [blog.micromarketing.ru/advice/9-point-5-rules-fot-it-business-in-russia](http://blog.micromarketing.ru/advice/9-point-5-rules-fot-it-business-in-russia/)
