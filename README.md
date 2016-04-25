@@ -54,6 +54,7 @@
       *[cssfontstack.com](http://cssfontstack.com/)*
 - [ ] Версия для печати<br>
       *[developer.chrome.com/devtools/docs/device-mode](https://developer.chrome.com/devtools/docs/device-mode#more-media-types)*
+- [ ] Mobile first, Progressive enhancement, Graceful degradation
 
 
 #### <a name='js'></a>JavaScript
@@ -106,6 +107,8 @@
 
 #### <a name='security'></a>Безопасность
 
+- [ ] Следуй 9.5 правилам ведения безопасного IT-бизнеса в России:
+      [blog.micromarketing.ru/advice/9-point-5-rules-fot-it-business-in-russia](http://blog.micromarketing.ru/advice/9-point-5-rules-fot-it-business-in-russia/)
 - [ ] Ограничение несанкционированного доступа к файлам, страницам и сообщениям об ошибках.
 - [ ] Хеширование паролей, стойкое к атакам перебора, с использованием «соли».
 - [ ] Защита всех форм на сайте от межсайтовой подделки запросов (CSRF).
@@ -279,5 +282,5 @@ https://debian.pro/1856
 
 #### <a name='etc'></a>Прочее
 
-- [ ] Следуй 9.5 правилам ведения безопасного IT-бизнеса в России:
-      [blog.micromarketing.ru/advice/9-point-5-rules-fot-it-business-in-russia](http://blog.micromarketing.ru/advice/9-point-5-rules-fot-it-business-in-russia/)
+- [ ] При отправке писем должен быть установлен заголовок List-Unsubscribe<br>
+      *[list-unsubscribe.com](http://www.list-unsubscribe.com/)*
