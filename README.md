@@ -1,6 +1,13 @@
 
-| [PHP](#php) | [HTML](#html) | [CSS](#css) | [JS](#js) | [SEO](#seo) | [Безопасность](#security) | [UI](#ui) | [Дизайн](#design) | [Linux](#linux) |
-| ----------- | ------------- | ----------- | --------- | ----------- | ------------------------- | --------- | ----------------- | --------------- |
+- [PHP](#php)
+- [HTML](#html)
+- [CSS](#css)
+- [JS](#js)
+- [SEO](#seo)
+- [Безопасность](#security)
+- [UI](#ui) 
+- [Дизайн](#design)
+- [Linux](#linux)
 
 #### <a name='php'></a>PHP
 *На основе рекомендаций [PHP: The Right Way](http://www.phptherightway.com)*
@@ -43,6 +50,8 @@
 
 - [ ] Работоспособность (читаемость) с выключенными стилями<br>
       *[achecker.ca/checker](http://achecker.ca/checker/)*
+- [ ] Отсутствие проблем в вёрстке из-за расширений браузеров<br>
+      *[Советник Яндекс.Маркета](https://sovetnik.yandex.ru/), [Skype Click to Call](http://achecker.ca/checker/), [Adblock Plus](https://adblockplus.org/), [uBlock](https://www.ublock.org/), [NoScript](https://noscript.net/)*
 - [ ] Соответствие макету<br>
 - [ ] Кроссбраузерность<br>
       *[developer.chrome.com/devtools/docs/device-mode](https://developer.chrome.com/devtools/docs/device-mode)*<br>
@@ -125,6 +134,8 @@
 
 
 #### <a name='ui'></a>User Interface
+
+http://goodui.org/
 
 http://habrahabr.ru/company/adv/blog/186846/
 - [ ] Макет с одной колонкой вместо многоколоночного
