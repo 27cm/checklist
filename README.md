@@ -1,4 +1,12 @@
 
+# Чеклист веб-разработки <img src="https://raw.githubusercontent.com/27cm/checklist/master/media/logo.png" alt="Web Development Checklist" align="right" width="80">
+
+> Чеклист – очень важная, полезная и удобная вещь. Смысл чеклиста в том, что ты 
+> проходишься по каждому пункту, отвечая себе на вопрос «Выполнен ли этот пункт?».
+
+
+## Оглавление
+
 - [PHP](#php)
 - [HTML](#html)
 - [CSS](#css)
