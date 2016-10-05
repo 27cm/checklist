@@ -1,5 +1,5 @@
 
-# Чеклист веб-разработки <img src="https://raw.githubusercontent.com/27cm/checklist/master/media/logo.png" alt="Web Development Checklist" align="right" width="80">
+# Чеклист веб-разработки <img src="https://raw.githubusercontent.com/27cm/checklist/master/media/logo.png" alt="Web Development Checklist" align="right" width="60">
 
 > Чеклист – очень важная, полезная и удобная вещь. Смысл чеклиста в том, что ты 
 > проходишься по каждому пункту, отвечая себе на вопрос «Выполнен ли этот пункт?».
@@ -19,8 +19,8 @@
 - [Прочее](#etc)
 
 
-#### <a name='php'></a>PHP
-*На основе рекомендаций [PHP: The Right Way](http://www.phptherightway.com)*
+## <a name='php'></a>PHP
+*На основе рекомендаций [PHP: The Right Way](http://www.phptherightway.com), [RuHighload](http://ruhighload.com/index.php/2009/06/03/php-%D1%80%D0%B5%D1%86%D0%B5%D0%BF%D1%82%D1%8B-%D0%B8-%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0-%D0%BF%D0%BE%D0%B4-%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%B8%D0%B5-%D0%BD%D0%B0%D0%B3%D1%80/)*
 
 - [ ] Используй последнюю стабильную версию PHP
       <br>*[php.net/releases/index.php](https://php.net/releases/index.php)*
@@ -33,15 +33,18 @@
       <br>*[php-fig.org](http://php-fig.org/)*
 - [ ] Используй стандартную библиотеку PHP (SPL)
       <br>*[php.net/manual/ru/book.spl.php](http://php.net/manual/ru/book.spl.php)*
-- [ ] Используй готовые библиотеки, не изобретай велосипеды
+- [ ] Используй готовые библиотеки, не изобретай «велосипеды»
       <br>*[github.com/ziadoz/awesome-php](https://github.com/ziadoz/awesome-php)*
 - [ ] Автоматизируй тестирование
-      <br>*[PHPUnit](https://phpunit.de/)*
-- [ ] Используй FastCGI (лучше всего Nginx + PHP-fpm) и OpCache для ускорения работы скриптов<br>
-- [ ] Используй Memcache для кеширования данных<br>
+      <br>*[PHPUnit](https://phpunit.de/), [Codeception](http://codeception.com/)*
+- [ ] Используй FastCGI / PHP-FPM для ускорения работы скриптов
+      <br>*[php-fpm.org](http://php-fpm.org)*
+- [ ] Используй OpCache для увеличение производительности интерпретатора при обработке сценариев
+      <br>*[php.net/manual/book.opcache.php](http://php.net/manual/book.opcache.php)*
+- [ ] Используй APC / Memcache / Redis для кеширования данных
 
 
-#### <a name='html'></a>HTML
+## <a name='html'></a>HTML
 
 - [ ] Валидность
       <br>*[validator.w3.org](http://validator.w3.org)*
@@ -56,7 +59,7 @@
 - [ ] Отсутствие опечаток, орфографических и пунктуационных ошибок
 
 
-#### <a name='css'></a>CSS
+## <a name='css'></a>CSS
 
 - [ ] Работоспособность (читаемость) с выключенными стилями
       <br>*[achecker.ca/checker](http://achecker.ca/checker/)*
@@ -76,7 +79,7 @@
 - [ ] Mobile first, Progressive enhancement, Graceful degradation
 
 
-#### <a name='js'></a>JavaScript
+## <a name='js'></a>JavaScript
 *На основе рекомендаций [JavaScript: The Right Way](http://jstherightway.org)*
 
 - [ ] Работоспособность с выключенными JavaScript и Flash
@@ -92,7 +95,7 @@
       [Intern](http://theintern.io/)*
 
 
-#### <a name='seo'></a>SEO
+## <a name='seo'></a>SEO
 
 - [ ] Канониназация домена, регистра, слешей и дефисов в URL
       <br>*`http://www.DOMAIN.com/section///PAGE---name/ > http://domain.com/section/page-name`*<br>
@@ -125,7 +128,7 @@
       В большинстве случаев, не должен использоваться.*
 
 
-#### <a name='security'></a>Безопасность
+## <a name='security'></a>Безопасность
 
 - [ ] Не храни пароли в открытом виде.
       <br>*Даже в логах заменяй все пароли и токены на &star;&star;&star;*
@@ -148,7 +151,7 @@
 - [ ] Регулярное (1 раза в сутки) резервное копирование исходных кодов, файлов и базы данных.
 
 
-#### <a name='ui'></a>User Interface
+## <a name='ui'></a>User Interface
 
 - [ ] Поиска по сайту
 - [ ] «Хлебные крошки».
@@ -173,7 +176,7 @@
       <br>*[read-able.com](http://www.read-able.com)*
 
 
-#### <a name='design'></a>Дизайн
+## <a name='design'></a>Дизайн
 
 - [ ] Свет падает сверху
 - [ ] Соблюдение правил хорошего тона в «Фотошопе»
@@ -191,7 +194,7 @@
       в фокусе (focus), заблокированное (disabled).*
 
 
-#### <a name='linux'></a>Linux
+## <a name='linux'></a>Linux
 
 - [ ] Удалены все ненужные и неиспользуемые пакеты
 - [ ] В /etc/apt/sources.list только нужные и проверенные репозитории
@@ -206,7 +209,7 @@
       <br>*[debian.pro/2013](https://debian.pro/2013)*
 
 
-#### <a name='etc'></a>Прочее
+## <a name='etc'></a>Прочее
 
 - [ ] При отправке писем должен быть установлен заголовок List-Unsubscribe
       <br>*[list-unsubscribe.com](http://www.list-unsubscribe.com/)*
