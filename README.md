@@ -46,6 +46,10 @@
 
 ## <a name='html'></a>HTML
 
+- [ ] Доступность (читаемость) при выключенных (загружающихся) картинках
+      <br>*[Web Developer](http://chrispederick.com/work/web-developer/) → Images → Replace Images With Alt Attributes*
+- [ ] Семантичность
+      <br>*[Семантическая вёрстка](https://ru.wikipedia.org/wiki/%D0%A1%D0%B5%D0%BC%D0%B0%D0%BD%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F_%D0%B2%D1%91%D1%80%D1%81%D1%82%D0%BA%D0%B0)*
 - [ ] Валидность
       <br>*[validator.w3.org](http://validator.w3.org)*
 - [ ] Оптимизация для мобильных устройств
@@ -83,6 +87,7 @@
 *На основе рекомендаций [JavaScript: The Right Way](http://jstherightway.org)*
 
 - [ ] Работоспособность с выключенными JavaScript и Flash
+      <br>*[Web Developer](http://chrispederick.com/work/web-developer/) → Disable → Disable JavaScript → All JavaScript*
 - [ ] Используй любой современный JavaScript фреймворк
       <br>*[todomvc.com](http://todomvc.com/)*
 - [ ] Используй готовые библиотеки, не изобретай «велосипеды»
