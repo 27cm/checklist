@@ -60,6 +60,9 @@
       <br>*[List of Usable HTML Meta and Link Tags](https://gist.github.com/kevinSuttle/1997924)*
 - [ ] Правильная типографика
       <br>*[habrahabr.ru/post/57351](http://habrahabr.ru/post/57351/)*
+- [ ] Web-доступность
+      <br>*[WAI](https://www.w3.org/WAI/)*
+      <br>*[WCAG](https://www.w3.org/Translations/WCAG20-ru/)*
 - [ ] Отсутствие опечаток, орфографических и пунктуационных ошибок
 
 
@@ -69,14 +72,15 @@
       <br>*[achecker.ca/checker](http://achecker.ca/checker/)*
 - [ ] Отсутствие проблем в вёрстке из-за расширений браузеров
       <br>*[Советник Яндекс.Маркета](https://sovetnik.yandex.ru/), [Skype Click to Call](http://achecker.ca/checker/), [Adblock Plus](https://adblockplus.org/), [uBlock](https://www.ublock.org/), [NoScript](https://noscript.net/)*
-- [ ] Соответствие макету<br>
+- [ ] Соответствие макету
+      <br>*[PerfectPixel](http://www.welldonecode.com/perfectpixel/)*
 - [ ] Кроссбраузерность
       <br>*[developer.chrome.com/devtools/docs/device-mode](https://developer.chrome.com/devtools/docs/device-mode)*
       <br>*[browserstack.com](https://www.browserstack.com/)*
       <br>*[dev.windows.com/en-us/microsoft-edge/tools](https://dev.windows.com/en-us/microsoft-edge/tools/)*
 - [ ] Валидность
       <br>*[jigsaw.w3.org/css-validator](http://jigsaw.w3.org/css-validator/)*
-- [ ] Наличие Windows/Mac/Linux аналогов шрифтов
+- [ ] Наличие Windows / Mac / Linux аналогов шрифтов
       <br>*[cssfontstack.com](http://cssfontstack.com/)*
 - [ ] Версия для печати
       <br>*[developer.chrome.com/devtools/docs/device-mode](https://developer.chrome.com/devtools/docs/device-mode#more-media-types)*
@@ -229,5 +233,7 @@
 
 ## <a name='etc'></a>Прочее
 
+- [ ] Правильный копирайт
+      <br>*[habrahabr.ru/post/23812/](https://habrahabr.ru/post/23812/)*
 - [ ] При отправке писем должен быть установлен заголовок List-Unsubscribe
       <br>*[list-unsubscribe.com](http://www.list-unsubscribe.com/)*
