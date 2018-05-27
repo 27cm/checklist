@@ -13,14 +13,14 @@
 - [JS](#js)
 - [SEO](#seo)
 - [Безопасность](#security)
-- [UI](#ui) 
+- [Мониторинг](#monitoring)
+- [UI](#ui)
 - [Дизайн](#design)
 - [Linux](#linux)
 - [Прочее](#etc)
 
 
 ## <a name='php'></a>PHP
-*На основе рекомендаций [PHP: The Right Way](http://www.phptherightway.com), [RuHighload](http://ruhighload.com/index.php/2009/06/03/php-%D1%80%D0%B5%D1%86%D0%B5%D0%BF%D1%82%D1%8B-%D0%B8-%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0-%D0%BF%D0%BE%D0%B4-%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%B8%D0%B5-%D0%BD%D0%B0%D0%B3%D1%80/)*
 
 - [ ] Используй последнюю стабильную версию PHP
       <br>*[php.net/releases/index.php](https://php.net/releases/index.php)*
@@ -46,6 +46,12 @@
 
 ## <a name='html'></a>HTML
 
+- [ ] Тип документа HTML5: `<!doctype html>`
+- [ ] Кодировку UTF-8: `<meta charset="utf-8">`
+- [ ] Вьюпорт: `<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">`
+- [ ] Язык: `<html lang="en">`
+- [ ] Favicon
+      <br>*[realfavicongenerator.net](https://realfavicongenerator.net/)*
 - [ ] Доступность (читаемость) при выключенных (загружающихся) картинках
       <br>*[Web Developer](http://chrispederick.com/work/web-developer/) → Images → Replace Images With Alt Attributes*
 - [ ] Семантичность
@@ -64,10 +70,16 @@
       <br>*[WAI](https://www.w3.org/WAI/)*
       <br>*[WCAG](https://www.w3.org/Translations/WCAG20-ru/)*
 - [ ] Отсутствие опечаток, орфографических и пунктуационных ошибок
+- [ ] Отсутствие битых ссылок
+      <br>*[W3C Link Checker](https://validator.w3.org/checklink)*
 
 
 ## <a name='css'></a>CSS
 
+- [ ] Сброс или нормализация стандартных стилей браузеров
+      <br>*[normalize.css](https://necolas.github.io/normalize.css/)*
+      <br>*[reset.css](https://meyerweb.com/eric/tools/css/reset/)*
+      <br>*[Reboot](https://getbootstrap.com/docs/4.0/content/reboot/)*
 - [ ] Работоспособность (читаемость) с выключенными стилями
       <br>*[achecker.ca/checker](http://achecker.ca/checker/)*
 - [ ] Отсутствие проблем в вёрстке из-за расширений браузеров
@@ -106,6 +118,8 @@
 
 ## <a name='seo'></a>SEO
 
+- [ ] Настроен Google Analytics
+- [ ] Настроен Яндекс.Вебмастер
 - [ ] Правильный заголовок `<title>`
       <br>*Максимум 70 символов, ключи в начале заголовка,
       уникальный для каждой страницы.*
@@ -119,6 +133,7 @@
 - [ ] Оптимизация скорости загрузки страниц
       <br>*[developers.google.com/speed/pagespeed/insights](https://developers.google.com/speed/pagespeed/insights/)*
       <br>*[yslow.org](http://yslow.org/)*
+      <br>*[tools.pingdom.com](https://tools.pingdom.com/)*
 - [ ] Оптимизация для мобильных устройств
       <br>*[google.com/webmasters/tools/mobile-friendly](https://www.google.com/webmasters/tools/mobile-friendly/)*
 - [ ] Микроформаты
@@ -152,16 +167,16 @@
 
 ## <a name='security'></a>Безопасность
 
-- [ ] Не храни пароли в открытом виде.
+- [ ] Не храни пароли в открытом виде
       <br>*Даже в логах заменяй все пароли и токены на &star;&star;&star;*
-- [ ] Хеширование паролей должно быть стойким к атакам перебора, с использованием «соли».
+- [ ] Хеширование паролей должно быть стойким к атакам перебора, с использованием «соли»
       <br>*Например [Bcrypt](https://ru.wikipedia.org/wiki/Bcrypt) с количеством раундов не менее 2<sup>10</sup>*
 - [ ] Следуй 9.5 правилам ведения безопасного IT-бизнеса в России:
       [blog.micromarketing.ru/advice/9-point-5-rules-fot-it-business-in-russia](http://blog.micromarketing.ru/advice/9-point-5-rules-fot-it-business-in-russia/)
-- [ ] Ограничение несанкционированного доступа к файлам, страницам и сообщениям об ошибках.
-- [ ] Защита сайта от межсайтовой подделки запросов (CSRF).
+- [ ] Ограничение несанкционированного доступа к файлам, страницам и сообщениям об ошибках
+- [ ] Защита сайта от межсайтовой подделки запросов (CSRF)
       *Не только POST, но любых других запросов.*
-- [ ] Защита от выполнения несанкционированных запросов к базе данных (SQL инъекций).
+- [ ] Защита от выполнения несанкционированных запросов к базе данных (SQL инъекций)
 - [ ] Защита от межсайтового скриптинга (XSS):
       - [ ] Фильтрация входных данных, кодирование любых управляющих HTML-символов, JavaScript, CSS и URL перед отображением в браузере.
       - [ ] Регулярный ручной и автоматизированный анализ безопасности кода и тестирование на проникновение. С использованием таких инструментов, как Nessus, Nikto Web Scanner и OWASP Zed Attack Proxy.
@@ -170,7 +185,14 @@
       - [ ] Использование заголовка Content Security Policy.
 - [ ] Обеспечение безопасного соединения между сервером и браузером пользователя при передаче персональной информации и проведении финансовых операций на сайте по протоколу TLS (мультидоменная SSL сертификация).
 - [ ] Протоколирование всех возникающих ошибок и предупреждений. Уведомление разработчиков о возникающих ошибках. Ведение детальной статистики посетителей веб-сайтов с помощью сервисов Google Analytics и Яндекс.Метрика.
-- [ ] Регулярное (1 раза в сутки) резервное копирование исходных кодов, файлов и базы данных.
+- [ ] Регулярное (1 раза в сутки) резервное копирование исходных кодов, файлов и базы данных
+
+
+## <a name='monitoring'></a>Monitoring
+
+- [ ] Постоянно следите за ошибками и важными метриками системы
+      <br>*[newrelic.com](https://newrelic.com/)*
+      <br>*[datadoghq.com](https://www.datadoghq.com/)*
 
 
 ## <a name='ui'></a>User Interface
@@ -200,6 +222,15 @@
 
 ## <a name='design'></a>Дизайн
 
+- [ ] Используйте легальные шрифты
+      <br>*[Google Fonts](https://fonts.google.com/)*
+- [ ] Макет должен быть в sRGB
+      <br>*Обязательно. Иначе цвета в вёрстке могут отличаться от макета.*
+- [ ] Используйте векторную графику
+      <br>*Везде, где это возможно. При соблюдении некоторых условий, векторная графика технологичнее растровой,
+      меньше размер файлов, поддерживает «эффекты внутри картинки», не требует ретинизации или ускоряет её.*
+- [ ] Создавайте векторную графику в отдельных файлах
+      <br>*Любые иконки и иллюстрации создавайте в отдельных SVG-файлах.*
 - [ ] Свет падает сверху
 - [ ] Соблюдение правил хорошего тона в «Фотошопе»
       <br>*[i-love-psd.ru](http://i-love-psd.ru/)*
@@ -208,10 +239,10 @@
 - [ ] Применение единой модульной сетки при проектировании интерфейса веб-сайта
       <br>*Значительно упрощает проектирование интерфейса и последующую вёрстку макета.*
 - [ ] Наличие в макетах отдельного слоя с модульной сеткой страницы
-      <br>*Следование единой модульной сетке в рамках проекта не только
-      увеличит цельность и логичность восприятия сайта, но и многократно
-      упростит труд разработчикам.*
-- [ ] Представлены различные состояния для интерактивных элементов (кнопок, текстовых полей, ссылок)
+      <br>*Следование единой модульной сетке в рамках проекта не только увеличит цельность 
+      и логичность восприятия сайта, но и многократно упростит труд разработчикам.*
+      <br>*Идеал модульной сетки — 12 колонок (12 делится на 2, 3, 4 и 6).*
+- [ ] Представлены различные состояния для интерактивных элементов (кнопок, текстовых полей, ссылок, флажков)
       <br>*Обычное (default), посещённое (visited), при наведении мыши (hover), активное (active),
       в фокусе (focus), заблокированное (disabled).*
 
@@ -237,3 +268,17 @@
       <br>*[habrahabr.ru/post/23812/](https://habrahabr.ru/post/23812/)*
 - [ ] При отправке писем должен быть установлен заголовок List-Unsubscribe
       <br>*[list-unsubscribe.com](http://www.list-unsubscribe.com/)*
+
+
+## <a name='sources'>Источники
+1. [PHP: The Right Way](http://www.phptherightway.com)
+1. [RuHighload](http://ruhighload.com/index.php/2009/06/03/php-%D1%80%D0%B5%D1%86%D0%B5%D0%BF%D1%82%D1%8B-%D0%B8-%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0-%D0%BF%D0%BE%D0%B4-%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%B8%D0%B5-%D0%BD%D0%B0%D0%B3%D1%80/)
+1. [О чём должен помнить веб-дизайнер](https://github.com/nicothin/web-design), Nikolay Gromov, Andrey Alexeev
+1. [Front End Checklist](https://github.com/thedaviddias/Front-End-Checklist), David Dias
+
+<!-- TODO: http://acme-digital.ru/blog/trebovaniya-k-verstke -->
+<!-- TODO: http://www.bistro-site.ru/articles/conditions -->
+<!-- TODO: http://joomla-book.ru/blog/thinking-aloud/requirements-for-sites-makeup -->
+<!-- TODO: http://xiper.net/collect/weekdays-front-end-dev/the-work-in-general/tehnicheskoe-zadanie-na-verstku -->
+<!-- TODO: https://sitecoder.blogspot.ru/2015/10/how-to-check-quality-work-freelancer-or.html -->
+<!-- TODO: http://www.cmsmagazine.ru/library/items/management/what-not-to-forget/ -->
